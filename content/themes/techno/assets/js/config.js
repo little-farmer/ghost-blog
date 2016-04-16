@@ -4,22 +4,22 @@ window.techno.config = {
 		author: {			
 				social: [
 					{ 
-						href: 'https://github.com/[YOUR ACCOUNT]',
+						href: 'https://github.com/little-farmer',
 					  icon: 'fa-github',
 						title: 'Github'
 					},
 					{ 
-						href: 'https://twitter.com/[YOUR ACCOUNT]',
+						href: 'https://twitter.com/iammenasco',
 					  icon: 'fa-twitter',
 						title: 'Twitter'
 					},
 					{ 
-						href: 'https://linkedin.com/[YOUR ACCOUNT]',
+						href: 'https://linkedin.com/in/brian-menasco-491b2b50',
 					  icon: 'fa-linkedin',
 						title: 'LinkedIn'
 					},
 					{ 
-						href: 'mailto:[YOUR EMAIL]',
+						href: 'mailto:menasco@me.com',
 					  icon: 'fa-envelope',
 						title: 'Email'
 					},
