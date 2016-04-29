@@ -9,7 +9,7 @@ window.techno.config = {
 						title: 'Github'
 					},
 					{ 
-						href: 'https://twitter.com/iammenasco',
+						href: 'https://twitter.com/LtlFrmrProducts',
 					  icon: 'fa-twitter',
 						title: 'Twitter'
 					},
