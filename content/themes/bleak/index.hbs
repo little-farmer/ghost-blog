@@ -1,0 +1,61 @@
+{{!< default}}
+	
+<header id="header" class="header{{#if @blog.cover}} has-cover{{/if}}">
+	<div class="inner">
+		<a class="header-title" href="{{@blog.url}}">
+			<h1 class="header-name">{{@blog.title}}</h1>
+			{{#if @blog.description}}
+				<span class="header-description">{{@blog.description}}</span>
+			{{/if}}
+		</a>
+	</div>
+	{{#if @blog.cover}}
+	<div class="header-cover" style="background-image: url({{@blog.cover}})"></div>
+	{{/if}}
+</header>
+
+<div id="post-index" class="container">
+
+	<main class="content" role="main">
+	
+		<div class="static-posts">
+			<article class="static-post post">
+				<div class="inner">
+					<a class="post-link js-ajax-link" href="http://localhost:2368/welcome-to-ghost/"></a>
+					<h2 class="post-title"><a href="http://localhost:2368/welcome-to-ghost/" class="js-ajax-link">​​Chicken Treats</a></h2>
+					<div class="img"><img src="//nebula.wsimg.com/651b46f6c675b507de839f6758315b16?AccessKeyId=BEC1C504D1CCC5FD0619&amp;disposition=0&amp;alloworigin=1"></div>
+					<span class="post-more"><a href="http://localhost:2368/welcome-to-ghost/" class="js-ajax-link">Peck to Read More<i class="icon-arrow-right"></i></a></span>
+				</div>
+			</article>
+			<article class="static-post post">
+				<div class="inner">
+					<a class="post-link js-ajax-link" href="http://localhost:2368/welcome-to-ghost/"></a>
+					<h2 class="post-title"><a href="http://localhost:2368/welcome-to-ghost/" class="js-ajax-link">Poultry Scratch</a></h2>
+					<img src="//nebula.wsimg.com/5f9c8c815411a334f5a47ab152d31f74?AccessKeyId=BEC1C504D1CCC5FD0619&amp;disposition=0&amp;alloworigin=1">
+					<span class="post-more"><a href="http://localhost:2368/welcome-to-ghost/" class="js-ajax-link">Peck to Read More<i class="icon-arrow-right"></i></a></span>
+				</div>
+			</article>
+			<article class="static-post post">
+				<div class="inner">
+					<a class="post-link js-ajax-link" href="http://localhost:2368/welcome-to-ghost/"></a>
+					<h2 class="post-title"><a href="http://localhost:2368/welcome-to-ghost/" class="js-ajax-link">​​Coop-Right</a></h2>
+					<img src="//nebula.wsimg.com/b94488599850a290febb5dd59d72b809?AccessKeyId=BEC1C504D1CCC5FD0619&amp;disposition=0&amp;alloworigin=1">
+					<span class="post-more"><a href="http://localhost:2368/welcome-to-ghost/" class="js-ajax-link">Peck to Read More<i class="icon-arrow-right"></i></a></span>
+				</div>
+			</article>
+			<article class="static-post post">
+				<div class="inner">
+					<a class="post-link js-ajax-link" href="http://localhost:2368/welcome-to-ghost/"></a>
+					<h2 class="post-title"><a href="http://localhost:2368/welcome-to-ghost/" class="js-ajax-link">True Grit</a></h2>
+					<img src="//nebula.wsimg.com/47c13cb242fafddb60bd6da31e4ecb8f?AccessKeyId=BEC1C504D1CCC5FD0619&amp;disposition=0&amp;alloworigin=1">
+					<span class="post-more"><a href="http://localhost:2368/welcome-to-ghost/" class="js-ajax-link">Peck to Read More<i class="icon-arrow-right"></i></a></span>
+				</div>
+			</article>
+		</div>
+		
+	
+		{{> "loop"}}
+	
+	</main>
+
+</div>
