@@ -28,8 +28,8 @@ $color-gray-15: #1F2026;
 	backgrounds or as background color for light and dark text color
 */
 
-$color-primary-default:		$color-green-85; /* Light */
-$color-primary-active:		$color-green-72; /* Dark */
+$color-primary-default:		#e52b2b; /* Light */
+$color-primary-active:		#e52b2b; /* Dark */
 
 
 /* ==========================================================================
@@ -1067,6 +1067,33 @@ body {
 	#footer {
 		transform: translate3d(0,100%,0);
 		opacity: 0;
+	}
+}
+
+/* ==========================================================================
+   Static Post
+   ========================================================================== */
+
+.static-posts {
+	text-align: center;
+	
+	.static-post {
+		display: inline-block;
+	  background: #fff;
+	  padding-bottom: 1em;
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px;
+		width: 18em;
+		margin-bottom: 1em;
+		
+		i {
+			color: $color-primary-default;
+		}
+		
+		img {
+			height: 250px;
+			width: 205px;
+		}
 	}
 }
 
